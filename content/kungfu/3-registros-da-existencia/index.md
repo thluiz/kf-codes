@@ -6,11 +6,11 @@ summaryImage: "presentes.png"
 summary: "As verdades universais do Budismo"
 ---
 
-Neste sábado, 2022-09-17, fizemos um Open House no [centro de tramissão de Ipanema](https://mestrejuliocamacho.com/os-centros/) e na Abertura do Sam Toi, [Si Fu](http://mestrejuliocamacho.com "Mestre Julio Camacho") nos falava como, apesar de nossa pratica não ser religiosa, certos ensinamentos do budismo acabam fazendo parte do nosso dia-a-dia.
+Neste sábado, 2022-09-17, fizemos um Open House no [centro de transmissão de Ipanema](https://mestrejuliocamacho.com/os-centros/) e na Abertura do Sam Toi, [Si Fu](http://mestrejuliocamacho.com "Mestre Julio Camacho") nos falava como, apesar de nossa pratica não ser religiosa, certos ensinamentos do budismo acabam fazendo parte do nosso dia-a-dia.
 
-Dado o momento atual ele comentava sobre as 3 verdades universais do Budismo:
+Dado o momento atual ele comentava sobre os 3 registros ou marcas da existência do Budismo:
 
-1. **Insubstanciabilidade:** As coisas não tem uma substancia nelas próprias; Si Fu citou o paradoxo do barco de Teseu: "se trocarmos todas as peças do barco de Teseu, uma a uma, o barco deixa de ser dele? Se montarmos um outro barco ao lado com as peças trocadas, temos dois barcos de Teseu?"
+1. **Insubstancialidade:** As coisas não têm uma substância nelas próprias; Si Fu citou o paradoxo do barco de Teseu: "se trocarmos todas as peças do barco de Teseu, uma a uma, o barco deixa de ser dele? Se montarmos um outro barco ao lado com as peças trocadas, temos dois barcos de Teseu?"
 2. **Sofrimento:** Você irá sofrer. Não importa o que faça, a condição humana é de sofrimento. Estamos no caminho do aperfeiçoamento, o caminho do Kung Fu, não há como escapar dessa verdade;
 3. **Impermanência:** Nada é permanente, tudo está em constante mudança. O exemplo que ele usou foi do morro Dois Irmãos em Ipanema: Não é porque ele está lá agora, estava lá a 200 anos, estará daqui a 100 anos que ele é permanente. Na verdade, considerando a história da Terra ele está lá por apenas uma pequena fração de tempo e logo irá desaparecer.
 

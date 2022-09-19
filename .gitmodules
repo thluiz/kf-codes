@@ -1,3 +1,6 @@
 [submodule "themes/hugo-refresh"]
 	path = themes/hugo-refresh
 	url = https://github.com/thluiz/hugo-refresh
+[submodule "themes/themes/hugo-refresh"]
+	path = themes/themes/hugo-refresh
+	url = https://github.com/thluiz/hugo-refresh

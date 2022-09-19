@@ -1,5 +1,5 @@
 ---
-title: "Sobre Mim"
+title: "Sobre"
 date: 2022-09-18
 draft: false
 hideLastModified: true

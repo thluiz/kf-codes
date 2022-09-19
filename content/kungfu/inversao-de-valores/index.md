@@ -1,7 +1,7 @@
 ---
 date: "2022-09-18"
 title: "Inversão de Valores"
-tags: ['Kung Fu', 'Etimologia', '功夫']
+tags: ['Kung Fu', '功夫']
 summaryImage: "armando-ascorve-morales-XpmsZmAMf_g-unsplash-crop.jpg"
 summary: "Algumas palavras sobre valores"
 ---

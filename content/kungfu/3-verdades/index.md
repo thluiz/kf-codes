@@ -22,6 +22,8 @@ Uma das primeiras leituras que aprendi para o Ving Tsun [永春](https://www.mdb
 
 E você? quer desenvolver sua habilidade de lidar com o inesperado? Procure um dos núcleos da [Moy Yat Ving Tsun](http://www.myvt-rio.org/) na sua cidade. 
 
+***
+
 **Sigamos Juntos!**
 
 ![Foto Oficial | Autora: Mayara Galvão ](./foto-oficial.jpg "Foto Oficial | Autora: Mayara Galvão")

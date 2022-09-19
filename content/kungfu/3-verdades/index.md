@@ -18,12 +18,16 @@ Normalmente a disposição dessas verdades é invertida, entretanto Si Fu desloc
 
 Uma das primeiras leituras que aprendi para o Ving Tsun [永春](https://www.mdbg.net/chinese/dictionary?page=chardict&cdcanoce=0&cdqchi=%E6%B0%B8%E6%98%A5) seria: "Celebrar a Mudança"; Está no nosso "DNA", no nosso [Kung Fu 功夫](../etimologia-kung-fu); Tudo irá mudar e uma das habilidades que mais treinamos é como lidar com isso.
 
+***
+
+E você? quer desenvolver sua habilidade de lidar com o inesperado? Procure um dos núcleos da [Moy Yat Ving Tsun](http://www.myvt-rio.org/) na sua cidade. 
+
 **Sigamos Juntos!**
 
 ![Foto Oficial | Autora: Mayara Galvão ](./foto-oficial.jpg "Foto Oficial | Autora: Mayara Galvão")
 
 ***
 
-> "Não há mal que sempre dure, nem bem que nunca se acabe"
+> *"Não há mal que sempre dure, nem bem que nunca se acabe"*
 >
 > ~ Minha avó, mas certamente alguém falou antes dela

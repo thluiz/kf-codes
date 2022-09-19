@@ -25,7 +25,7 @@ blackfriday:
   hrefTargetBlank: true
 
 Taxonomies:
-  tag: "Etiquetas"
+  tag: "tags"
 
 # Supported fonts are:
 # https://fonts.google.com/
@@ -110,7 +110,7 @@ params:
     # option to specify the subtitle in the homepage
     subtitle: Personal website and blog
     # option to specify image in the homepage
-    image: "/images/sifu-e-cys.jpeg" # worker.svg 
+    image: "/images/kungfu.png" # worker.svg 
     # option to specify the width of the image in the homepage
     imageWidth: 500px
 
@@ -178,8 +178,8 @@ languages:
     params:
       homepage:
         title: Códigos Kung Fu
-        subtitle: Códigos Kung Fu        
-        image: "/images/sifu-e-cys.jpeg" # worker.svg
+        subtitle: Uma página pessoal sobre desenvolvimento humano, Kung Fu (功夫) e sistemas
+        image: "/images/kungfu.png" # worker.svg
         imageWidth: 500px
       
       # Some sub-parameters of the "footer" parameter

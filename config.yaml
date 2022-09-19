@@ -54,6 +54,7 @@ params:
   # option to specify the main colour of the theme
   mainColour: "#611abd"
   footerColour: "#eae0ff"
+  footerTextColour: "#4a4a4a"
 
   # summary options
   summary:

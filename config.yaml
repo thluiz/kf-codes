@@ -53,6 +53,7 @@ params:
   jsIntegrity: true
   # option to specify the main colour of the theme
   mainColour: "#611abd"
+  footerColour: "#fafafa"
 
   # summary options
   summary:

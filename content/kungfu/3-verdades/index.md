@@ -1,6 +1,6 @@
 ---
 date: "2022-09-18"
-title: "3 Verdades Universais"
+title: "3 Registros da Existência"
 tags: ['Budismo', 'Kung Fu', '功夫', '永春']
 summaryImage: "presentes.png"
 summary: "As verdades universais do Budismo"
@@ -10,7 +10,7 @@ Neste sábado, 2022-09-17, fizemos um Open House no [Núcleo Ipanema](http://www
 
 Dado o momento atual ele comentava sobre as 3 verdades universais do Budismo:
 
-1. **Desapego:** Você não existe; Não existe um Ego; Logo você não deve se apegar a nada;
+1. **Insubstancialidade:** As coisas não tem uma substancia nelas próprias;
 2. **Sofrimento:** Você irá sofrer. Não importa o que faça, a condição humana é de sofrimento. Estamos no caminho do aperfeiçoamento, o caminho do Kung Fu, não como escapar;
 3. **Impermanência:** Nada é permanente, tudo está em constante mudança. O exemplo que ele usou foi do morro Dois Irmãos em Ipanema: Não é porque ele está lá agora, estava lá a 200 anos, estará daqui a 200 anos que ele é permanente. Na verdade, considerando a história da Terra ele está lá por apenas uma pequena fração de tempo e logo irá desaparecer.
 

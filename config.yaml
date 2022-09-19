@@ -188,7 +188,7 @@ languages:
       # i.e., the parameters of the default language
       # won't be inherited.
       footer:
-        logo: "/images/logo.png"
+        logo: "/images/logo-instituto-fundo-transparente.png"
         email: 
           link: thiago@kungfu.codes
           title: Email

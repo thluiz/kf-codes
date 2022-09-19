@@ -11,8 +11,8 @@ Neste sábado, 2022-09-17, fizemos um Open House no [centro de tramissão de Ipa
 Dado o momento atual ele comentava sobre as 3 verdades universais do Budismo:
 
 1. **Insustentabilidade:** As coisas não tem uma substancia nelas próprias; Si Fu citou o paradoxo do barco de Teseu: "se trocarmos todas as peças do barco de Teseu, uma a uma, o barco deixa de ser dele? Se montarmos um outro barco ao lado com as peças trocadas, temos dois barcos de Teseu?"
-2. **Sofrimento:** Você irá sofrer. Não importa o que faça, a condição humana é de sofrimento. Estamos no caminho do aperfeiçoamento, o caminho do Kung Fu, não como escapar;
-3. **Impermanência:** Nada é permanente, tudo está em constante mudança. O exemplo que ele usou foi do morro Dois Irmãos em Ipanema: Não é porque ele está lá agora, estava lá a 200 anos, estará daqui a 200 anos que ele é permanente. Na verdade, considerando a história da Terra ele está lá por apenas uma pequena fração de tempo e logo irá desaparecer.
+2. **Sofrimento:** Você irá sofrer. Não importa o que faça, a condição humana é de sofrimento. Estamos no caminho do aperfeiçoamento, o caminho do Kung Fu, não há como escapar dessa verdade;
+3. **Impermanência:** Nada é permanente, tudo está em constante mudança. O exemplo que ele usou foi do morro Dois Irmãos em Ipanema: Não é porque ele está lá agora, estava lá a 200 anos, estará daqui a 100 anos que ele é permanente. Na verdade, considerando a história da Terra ele está lá por apenas uma pequena fração de tempo e logo irá desaparecer.
 
 Normalmente a disposição dessas verdades é invertida, entretanto Si Fu deslocou a impermanência para poder falar das diversas mudanças simultâneas que estamos passando.
 

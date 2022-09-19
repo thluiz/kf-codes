@@ -26,7 +26,7 @@ summary: "Algumas palavras sobre como conseguir mais tempo"
 
 ***
 
-E você já parou para pensar em como conseguir mais tempo? Procure um dos núcleos da [Moy Yat Ving Tsun](http://www.myvt-rio.org/) na sua cidade. 
+E você já parou para pensar em como conseguir mais tempo? Procure um dos núcleos do [Instituo Julio Camacho](http://www.myvt-rio.org/).
 
 ***
 

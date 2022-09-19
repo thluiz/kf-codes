@@ -54,5 +54,5 @@ Logo, mesmo no mais simples procedimento podemos estar condenando todas geraçõ
 
 ***
 
-E você já parou para pensar no [念頭](https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=%E5%BF%B5%E9%A0%AD) das ações cotidianas? Que tal estar mais atento ao momento presente? Procure um dos núcleos da [Moy Yat Ving Tsun](http://www.myvt-rio.org/) na sua cidade. 
+E você já parou para pensar no [念頭](https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=%E5%BF%B5%E9%A0%AD) das ações cotidianas? Que tal estar mais atento ao momento presente? Procure um dos núcleos do [Instituo Julio Camacho](http://www.myvt-rio.org/).
 

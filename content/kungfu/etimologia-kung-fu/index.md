@@ -20,4 +20,4 @@ Logo, Kung Fu poderia ser lido como o processo de amadurecimento por meio do tra
 
 ***
 
-E você? quer desenvolver seu próprio Kung Fu? Procure um dos núcleos da [Moy Yat Ving Tsun](http://www.myvt-rio.org/) na sua cidade. 
+E você? quer desenvolver seu próprio Kung Fu? Procure um dos núcleos do [Instituo Julio Camacho](http://www.myvt-rio.org/).

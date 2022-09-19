@@ -20,4 +20,4 @@ Logo, Kung Fu poderia ser lido como o processo de amadurecimento por meio do tra
 
 ***
 
-E você? quer desenvolver seu próprio Kung Fu? Procure um dos centros de transmissão do [Instituo Julio Camacho](https://mestrejuliocamacho.com/os-centros/).
+E você? quer desenvolver seu próprio Kung Fu? Procure um dos centros de transmissão do [Instituto Julio Camacho](https://mestrejuliocamacho.com).

@@ -54,4 +54,4 @@ Logo, mesmo no mais simples procedimento podemos estar condenando todas geraçõ
 
 ***
 
-E você já parou para pensar no [念頭](https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=%E5%BF%B5%E9%A0%AD) das ações cotidianas? Que tal estar mais atento ao momento presente? Procure um dos centros de transmissão do [Instituo Julio Camacho](https://mestrejuliocamacho.com/os-centros/).
+E você já parou para pensar no [念頭](https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=%E5%BF%B5%E9%A0%AD) das ações cotidianas? Que tal estar mais atento ao momento presente? Procure um dos centros de transmissão do [Instituto Julio Camacho](https://mestrejuliocamacho.com).

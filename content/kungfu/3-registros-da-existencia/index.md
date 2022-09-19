@@ -20,7 +20,7 @@ Uma das primeiras leituras que aprendi para o Ving Tsun [永春](https://www.mdb
 
 ***
 
-E você? quer desenvolver sua habilidade de lidar com o inesperado? Procure um dos centros de transmissão do [Instituo Julio Camacho](https://mestrejuliocamacho.com).
+E você? quer desenvolver sua habilidade de lidar com o inesperado? Procure um dos centros de transmissão do [Instituto Julio Camacho](https://mestrejuliocamacho.com).
 
 ***
 

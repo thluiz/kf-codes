@@ -1,5 +1,5 @@
-baseURL: https://kungfu.codes
-languageCode: en-us
+baseURL: https://www.kungfu.codes
+languageCode: pt-br
 title: Kung Fu Codes
 theme: hugo-refresh
 # theme: ../..
@@ -9,7 +9,7 @@ theme: hugo-refresh
 #########################################
 # This options specify where to look for the images used in this config
 # The default value is the "asset" directory of this theme
-# assetDir: "static"
+assetDir: "static"
 
 # Option to specify the default language of the theme
 # I.e., the landing language of your root 
@@ -25,7 +25,7 @@ blackfriday:
   hrefTargetBlank: true
 
 Taxonomies:
-  tag: "tags"
+  tag: "Etiquetas"
 
 # Supported fonts are:
 # https://fonts.google.com/
@@ -41,18 +41,18 @@ params:
 
   # option to specify the favicon image of the site
   # the path is relative to the folder "assetDir" of this configuration
-  favicon: "/images/favicon.svg"
+  favicon: "/images/favicon/favicon.ico"
 
   # parameter used to specify if you want to minify the imported js
-  jsMinify: false
+  jsMinify: true
   # parameter used to specify if you want to minify the imported css
-  cssMinify: false
+  cssMinify: true
   # parameter used to specify if you want to calculate the css integrity
   cssIntegrity: true
   # parameter used to specify if you want to calculate the js integrity
   jsIntegrity: true
   # option to specify the main colour of the theme
-  mainColour: "#F39200"
+  mainColour: "#611abd"
 
   # summary options
   summary:
@@ -75,7 +75,7 @@ params:
   sidebar:
     # option to specify the logo of the sidebar
     # the starting folder is configure in "assetDir" of this file
-    logo: "/images/refresh-square.svg"
+    logo: "/images/favicon-chi.png"
     # option to specify the font of the sidebar
     fontFamily: "Open Sans" # "Open Sans"
 
@@ -84,13 +84,13 @@ params:
     # option to specify the font used in the navbar
     fontFamily: "Open Sans"
     # option to show the little logos on the side of the navbar items
-    showIcons: false
+    showIcons: true
     
   # 404 page options
   pagNotFound:
     # option to specify the main picture of the sidebar
     # the starting folder is configure in "assetDir" of this file
-    image: "/images/avataaars_404.png"
+    image: "/images/logo-cla-moy-jo-lei-ou.jpg"
     # option to specify the title of the 404 page
     title: 404 Page Not Found :(
     # option to specify the subtitle of the 404 page
@@ -110,7 +110,7 @@ params:
     # option to specify the subtitle in the homepage
     subtitle: Personal website and blog
     # option to specify image in the homepage
-    image: "/images/avataaars.png" # worker.svg 
+    image: "/images/sifu-e-cys.jpeg" # worker.svg 
     # option to specify the width of the image in the homepage
     imageWidth: 500px
 
@@ -118,14 +118,14 @@ params:
   footer:
     # option to specify the logo in the footer
     # the starting folder is configure in "assetDir" of this file
-    logo: "/images/refresh-square.svg"
+    logo: "/images/logo.png"
     # option to specify your contact email in the footer
     email: 
       link: thiago@kungfu.codes
       title: Email
     # option to specify your linkedin profile in the footer
     linkedin: 
-      link: http://linkedin.com/in/thluiz
+      link: in/thluiz
       title: LinkedIn
     # option to specify your facebook account in the footer; 
     # **uncomment** the lines below to show in footer
@@ -136,7 +136,7 @@ params:
     # **uncomment** the below lines to show in footer
     github: 
       link: thluiz
-      title: Github
+      title: GitHub
     # option to specify your gitlab account in the footer; 
     # **uncomment** the below lines to show in footer
     # gitlab: 
@@ -178,8 +178,8 @@ languages:
     params:
       homepage:
         title: Códigos Kung Fu
-        subtitle: Códigos Kung Fu
-        image: "/images/avataaars.png" # worker.svg 
+        subtitle: Códigos Kung Fu        
+        image: "/images/sifu-e-cys.jpeg" # worker.svg
         imageWidth: 500px
       
       # Some sub-parameters of the "footer" parameter
@@ -188,12 +188,12 @@ languages:
       # i.e., the parameters of the default language
       # won't be inherited.
       footer:
-        logo: "/images/refresh-square.svg"
+        logo: "/images/logo.png"
         email: 
           link: thiago@kungfu.codes
           title: Email
         linkedin: 
-          link: https://www.linkedin.com/in/thluiz/
+          link: in/thluiz
           title: LinkedIn
         # facebook: 
         #   link: your.username
@@ -205,7 +205,7 @@ languages:
         #   link: username
         #   title: Instagram
         github: 
-          link: http://linkedin.com/in/thluiz
+          link: thluiz
           title: Github
         # gitlab: 
         #   link: username

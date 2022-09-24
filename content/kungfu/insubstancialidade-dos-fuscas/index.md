@@ -6,7 +6,7 @@ summaryImage: "paolo-candelo-ATkJUh6OW2g-unsplash.jpg"
 summary: "3 Historietas sobre carros e outras coisas sem substância"
 ---
 
-Ainda durante o Open House no [centro de transmissão de Ipanema](https://mestrejuliocamacho.com/os-centros/) semana passada, [Si Fu](http://mestrejuliocamacho.com "Mestre Julio Camacho") ao falar sobre a [insubstancialidade](../3-registros-da-existencia/) citou um exemplo do Si Baak Jucelito Wainer:
+Ainda durante o Open House no centro de transmissão de {{< ipanema >}} semana passada, {{< sifu >}} ao falar sobre a [insubstancialidade](../3-registros-da-existencia/) citou um exemplo do Si Baak Jucelito Wainer:
 
 > "Se eu tenho um carro, e tiro as 4 rodas ele ainda é um carro?"
 > 
@@ -16,9 +16,9 @@ Ainda durante o Open House no [centro de transmissão de Ipanema](https://mestre
 
 A história segue, cada vez temos menos carro, porém ainda nos referimos às peças restantes como um veículo.
 
-A conclusão é que as coisas não existem por si só.  Nós é que atribuímos valor e damos substância a tudo - inclusive um diferencial de um bom praticante de Kung Fu ([功夫](https://www.mdbg.net/chinese/dictionary?page=chardict&cdcanoce=0&cdqchi=%E5%8A%9F%E5%A4%AB)) é a capacidade de ver além do óbvio.
+A conclusão é que as coisas não existem por si só.  Nós é que atribuímos valor e damos substância a tudo - inclusive um diferencial de um bom praticante de Kung Fu ({{<mdbg 功夫>}}]) é a capacidade de ver além do óbvio.
 
-Um ponto interessante é que a primeira vez que ouvi essa história foi a mais de 15 anos. Si Fu provocava uma sonolenta Jade enquanto a levava para o colégio. Eu ia no banco do carona ouvindo muitas vezes sem entender. O que me pergunto agora é se o Si Fu estava de fato falando para ela, ou a usando para me contar;
+Um ponto interessante é que a primeira vez que ouvi essa história foi a mais de 15 anos. {{< sifu >}} provocava uma sonolenta Jade enquanto a levava para o colégio. Eu ia no banco do carona ouvindo muitas vezes sem entender. O que me pergunto agora é se {{< sifu >}} estava de fato falando para ela, ou a usando para me contar;
 
 Enfim, isso se tornou um hábito que trouxe para minha família: sempre que podemos estamos conversando sobre aleatoriedades, tudo é passível de questionamento e todo conhecimento é bem-vindo.
 
@@ -44,7 +44,7 @@ Respondi com ar sabichão: - ***"Ué! A Kombi foi criada pelos alemães combinan
 
 Mais à frente vi uma carroça e falei novamente: ***"Fusca!"*** 
 
-Novos protestos vorazes. Comecei meu argumento com a história do Si Fu: - ***"Se eu tirar as rodas da frente do fusca, ele ainda é um fusca? se eu colocar um cavalo para puxar ele deixa de ser um fusca?"*** - Consegui mais meio ponto!
+Novos protestos vorazes. Comecei meu argumento com a história do {{< sifu >}}: - ***"Se eu tirar as rodas da frente do fusca, ele ainda é um fusca? se eu colocar um cavalo para puxar ele deixa de ser um fusca?"*** - Consegui mais meio ponto!
 
 No fim, foi uma grande goleada delas, mas elas se divertiram bastante comigo tentando conseguir pontos com a lixeira na rua (*se eu jogar um monte de lixo no fusca?*), o cachorro que passava (*se o fusca tivesse patas?*), o pombo no poste (*se o fusca voasse?*)...
 
@@ -58,7 +58,7 @@ Ela contestou imediatamente: - ***"mas não tem nada aqui?!"***
 
 Eu expliquei: - ***"No final da idade média um filósofo chamado Hegel falou que tudo que existe é fruto dos sentidos, ele criou a Fenomenologia"***
 
-Ela me olhou ainda incrédula, recebera uma catucada gratuitamente.
+Ela me olhou ainda incrédula por receber uma catucada gratuitamente.
 
 Continuei: - ***"Pensa bem. Ao olhar um fusca na rua a imagem se forma na sua mente. Da mesma forma, quando você imagina um fusca a imagem surge na sua cabeça. Qual diferença entre o fusca que existe do lado de fora e o fusca perfeito de dentro da sua mente?"***
 
@@ -88,12 +88,12 @@ Apesar de eu ter "ganhado" paguei os sorvetes para conter a rebelião que se for
 
 Hoje muitas vezes falamos: ***"sabe o que pensei?"*** e já calculamos pontos e carros metafísicos (e sorvete!) automaticamente. Quando um silêncio se forma, uma catucada já nos remete aos fuscas imaginários e, não raro o silêncio permanece com elas esperando de onde vem o próximo golpe - A diversão está nesses jogos particulares que criamos.
 
-E você preparado para ver além do óbvio? Procure um dos centros de transmissão do [Instituto Julio Camacho](https://mestrejuliocamacho.com).
+E você preparado para ver além do óbvio? Procure um dos centros de transmissão do {{< instituto >}}.
 
 ***
 
 **Fusca!**
 
-![Fusca! Sinta-se catucado!](./paolo-candelo-ATkJUh6OW2g-unsplash.jpg "https://unsplash.com/@paolocandelo")
+![Fusca! Sinta-se catucado!](./paolo-candelo-ATkJUh6OW2g-unsplash.jpg "Fusca! Sinta-se catucado! - https://unsplash.com/@paolocandelo")
 
 > ***Sinta-se catucado!***

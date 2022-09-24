@@ -4,6 +4,11 @@ title: Kung Fu Codes
 theme: hugo-refresh
 # theme: ../..
 
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
 #########################################
 ######## Uncomment this option ##########
 #########################################

@@ -7,9 +7,9 @@ summary: "Algumas palavras sobre como conseguir mais tempo"
 
 ---
 
-[Si Fu](http://mestrejuliocamacho.com "Mestre Julio Camacho") nos contou o seguinte: 
+{{< sifu >}} nos contou o seguinte: 
 
-*Certa vez ao final de uma palestra em um evento com [Si Taai Gung](https://moyyat.institute/ "Patriarca Moy Yat") aqui no Brasil um dos participantes questionou:*
+*Certa vez ao final de uma palestra em um evento com {{< sitaigung >}} aqui no Brasil um dos participantes questionou:*
 
 *— __"Si Gung, sou apaixonado pelo Ving Tsun. Gostaria muito de passar mais tempo com meu Si Fu, mas não consigo. Como faço para ter mais tempo?"__*
 
@@ -21,16 +21,16 @@ summary: "Algumas palavras sobre como conseguir mais tempo"
 
 *O rapaz apenas se calou frustrado e o evento prosseguiu.*
 
-*Mais tarde, durante o jantar, Si Taai Gung comentaria:  — __"Tem gente que não sabe escutar"__*
+*Mais tarde, durante o jantar, Si Taai Gung comentaria sobre essa questão:  — __"Tem gente que não sabe escutar"__*
 
 
 ***
 
-E você já parou para pensar em como conseguir mais tempo? Procure um dos centros de transmissão do [Instituto Julio Camacho](https://mestrejuliocamacho.com).
+E você já parou para pensar em como conseguir mais tempo? Procure um dos centros de transmissão do {{< instituto >}}.
 
 ***
 
 > Quem não entende um olhar tampouco pode compreender uma grande explicação.
-> 
+>
 > ~ Manuel Bandeira
 

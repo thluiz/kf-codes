@@ -6,7 +6,7 @@ summaryImage: "presentes.png"
 summary: "As verdades universais do Budismo"
 ---
 
-Neste sábado, 2022-09-17, fizemos um Open House no [centro de transmissão de Ipanema](https://mestrejuliocamacho.com/os-centros/) e na Abertura do Sam Toi, [Si Fu](http://mestrejuliocamacho.com "Mestre Julio Camacho") nos falava como, apesar de nossa pratica não ser religiosa, certos ensinamentos do budismo acabam fazendo parte do nosso dia-a-dia.
+Neste sábado, 2022-09-17, fizemos um Open House no centro de transmissão de {{< ipanema >}} e na Abertura do Sam Toi, {{< sifu >}} nos falava como, apesar de nossa pratica não ser religiosa, certos ensinamentos do budismo acabam fazendo parte do nosso dia-a-dia.
 
 Dado o momento atual ele comentava sobre os 3 registros ou marcas da existência do Budismo:
 
@@ -16,7 +16,7 @@ Dado o momento atual ele comentava sobre os 3 registros ou marcas da existência
 
 Normalmente a disposição dessas verdades é invertida, entretanto Si Fu deslocou a impermanência para poder falar das diversas mudanças simultâneas que estamos passando.
 
-Uma das primeiras leituras que aprendi para o Ving Tsun [永春](https://www.mdbg.net/chinese/dictionary?page=chardict&cdcanoce=0&cdqchi=%E6%B0%B8%E6%98%A5) seria: "Celebrar a Mudança"; Está no nosso "DNA", no nosso [Kung Fu 功夫](../etimologia-kung-fu); Tudo irá mudar e uma das habilidades que mais treinamos é como lidar com isso.
+Uma das primeiras leituras que aprendi para o Ving Tsun ({{< mdbg 永春 >}}) seria: "Celebrar a Mudança"; Está no nosso "DNA", no nosso [Kung Fu 功夫](../etimologia-kung-fu/); Tudo irá mudar e uma das habilidades que mais treinamos é como lidar com isso.
 
 ***
 

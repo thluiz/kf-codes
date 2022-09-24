@@ -11,7 +11,7 @@ Certa vez [Si Fu](http://mestrejuliocamacho.com "Mestre Julio Camacho") nos cont
  _Uma menina curiosa de uma família muito rica estava auxiliando sua mãe no preparo do jantar. Sua mãe pegava um Filet Mignon e ia "descascando" a carne até sobrar apenas seu miolo com um vermelho bem vivo e fresco._ 
 
 
-![Só o medalhão do filet](./wesual-click-DxJvLtab4ak-unsplash-crop.jpg "https://unsplash.com/@wesual")
+![Só o medalhão do filet](./wesual-click-DxJvLtab4ak-unsplash-crop.jpg "Só o medalhão do filet - https://unsplash.com/@wesual")
 
  
 *Intrigada a menina perguntou: __"Mamãe, o que fazemos com toda essa carne que sobra?"__*
@@ -30,7 +30,7 @@ Certa vez [Si Fu](http://mestrejuliocamacho.com "Mestre Julio Camacho") nos cont
 
 *— __"Diacho, Menina! Coisa da sua Avó, sempre fizemos assim."__*
 
-![Visitando a Vovó](./annie-spratt-s0eeLwNxcns-unsplash-cropped.jpg "https://unsplash.com/@anniespratt")
+![Visitando a Vovó](./annie-spratt-s0eeLwNxcns-unsplash-cropped.jpg "Visitando a Vovó - https://unsplash.com/@anniespratt")
 
 *Naquela noite a menina mal dormiu, estava ainda mais incomodada e decidiu que iria tirar essa história a limpo. Partiu para a casa dos avós impaciente, ao chegar já sentindo o cheiro do almoço, correu para a cozinha e saiu perguntando:*
 

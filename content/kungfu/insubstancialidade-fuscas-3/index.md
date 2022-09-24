@@ -3,7 +3,7 @@ date: "2022-09-24"
 title: "A Insubstancialidade dos Fuscas"
 tags: ['Kung Fu', '功夫', "念頭", "Vida Kung Fu"]
 summaryImage: "paolo-candelo-ATkJUh6OW2g-unsplash.jpg"
-summary: "3 Historietas sobre carros e outras insubstancialidades"
+summary: "3 Historietas sobre carros e outras coisas sem substância"
 ---
 
 Ainda durante o Open House no [centro de transmissão de Ipanema](https://mestrejuliocamacho.com/os-centros/) semana passada, [Si Fu](http://mestrejuliocamacho.com "Mestre Julio Camacho") ao falar sobre a [insubstancialidade](../3-registros-da-existencia) citou um exemplo do Si Baak Juscelito:

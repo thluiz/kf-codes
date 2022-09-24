@@ -86,9 +86,7 @@ Apesar de eu ter "ganhado" paguei os sorvetes para conter a rebelião que se for
 
 ***
 
-Hoje muitas vezes falamos: ***"sabe o que pensei?"*** e já calculamos pontos e fuscas metafísicos (e sorvete!) automaticamente. 
-
-Quando um silêncio se forma, uma catucada já nos remete aos fuscas imaginários, não raro o silêncio permanece com elas esperando de onde vem o próximo golpe.
+Hoje muitas vezes falamos: ***"sabe o que pensei?"*** e já calculamos pontos e carros metafísicos (e sorvete!) automaticamente. Quando um silêncio se forma, uma catucada já nos remete aos fuscas imaginários e, não raro o silêncio permanece com elas esperando de onde vem o próximo golpe - A diversão está nesses jogos particulares que criamos.
 
 E você preparado para ver além do óbvio? Procure um dos centros de transmissão do [Instituto Julio Camacho](https://mestrejuliocamacho.com).
 

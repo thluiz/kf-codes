@@ -14,7 +14,7 @@ Ainda durante o Open House no [centro de transmissão de Ipanema](https://mestre
 > 
 > "E se tiramos as portas?..."
 
-A história segue, cada vez temos menos carro, mais ainda nos referimos às peças restantes como um veículo.
+A história segue, cada vez temos menos carro, porém ainda nos referimos às peças restantes como um veículo.
 
 A conclusão é que as coisas não existem por si só.  Nós é que atribuímos valor e damos substância a tudo - inclusive um diferencial de um bom praticante de Kung Fu ([功夫](https://www.mdbg.net/chinese/dictionary?page=chardict&cdcanoce=0&cdqchi=%E5%8A%9F%E5%A4%AB)) é a capacidade de ver além do óbvio.
 

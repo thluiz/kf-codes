@@ -46,7 +46,7 @@ Mais à frente vi uma carroça e falei novamente: ***"Fusca!"***
 
 Novos protestos vorazes. Comecei meu argumento com a história do Si Fu: - ***"Se eu tirar as rodas da frente do fusca, ele ainda é um fusca? se eu colocar um cavalo para puxar ele deixa de ser um fusca?"*** - Consegui mais meio ponto!
 
-No fim, foi uma grande goleada delas, mas elas se divertiram bastante comigo tentando conseguir pontos com a lixeira na rua, o cachorro que passava, o pombo no poste...
+No fim, foi uma grande goleada delas, mas elas se divertiram bastante comigo tentando conseguir pontos com a lixeira na rua (*se eu jogar um monte de lixo no fusca?*), o cachorro que passava (*se o fusca tivesse patas?*), o pombo no poste (*se o fusca voasse?*)...
 
 ***
 

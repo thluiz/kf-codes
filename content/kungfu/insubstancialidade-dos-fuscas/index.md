@@ -9,10 +9,12 @@ summary: "3 Historietas sobre carros e outras insubstancialidades"
 ![Fusca!](./paolo-candelo-ATkJUh6OW2g-unsplash.jpg "https://unsplash.com/@paolocandelo")
 
 
-Ainda durante o Open House no [centro de transmissão de Ipanema](https://mestrejuliocamacho.com/os-centros/) semana passada, [Si Fu](http://mestrejuliocamacho.com "Mestre Julio Camacho") ao falar sobre a Insubstancialidade citou um exemplo do Si Baak Juscelito:
+Ainda durante o Open House no [centro de transmissão de Ipanema](https://mestrejuliocamacho.com/os-centros/) semana passada, [Si Fu](http://mestrejuliocamacho.com "Mestre Julio Camacho") ao falar sobre a [insubstancialidade](../3-registros-da-existencia) citou um exemplo do Si Baak Juscelito:
 
 > "Se eu tenho um carro, e tiro as 4 rodas ele ainda é um carro?"
+> 
 > "E se tirarmos o volante?"
+> 
 > "E se tiramos as portas?..."
 
 A história segue, cada vez temos menos carro, mais ainda nos referimos às peças restantes como um veículo.

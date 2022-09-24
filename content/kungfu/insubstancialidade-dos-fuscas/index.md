@@ -6,9 +6,6 @@ summaryImage: "paolo-candelo-ATkJUh6OW2g-unsplash.jpg"
 summary: "3 Historietas sobre carros e outras insubstancialidades"
 ---
 
-![Fusca!](./paolo-candelo-ATkJUh6OW2g-unsplash.jpg "https://unsplash.com/@paolocandelo")
-
-
 Ainda durante o Open House no [centro de transmissão de Ipanema](https://mestrejuliocamacho.com/os-centros/) semana passada, [Si Fu](http://mestrejuliocamacho.com "Mestre Julio Camacho") ao falar sobre a [insubstancialidade](../3-registros-da-existencia) citou um exemplo do Si Baak Juscelito:
 
 > "Se eu tenho um carro, e tiro as 4 rodas ele ainda é um carro?"
@@ -94,3 +91,11 @@ Hoje muitas vezes falamos: ***"sabe o que pensei?"*** e já calculamos pontos e 
 Quando um silêncio se forma, uma catucada já nos remete aos fuscas imaginários, não raro o silêncio permanece com elas esperando de onde vem o próximo golpe.
 
 E você preparado para ver além do óbvio? Procure um dos centros de transmissão do [Instituto Julio Camacho](https://mestrejuliocamacho.com).
+
+***
+
+**Fusca!**
+
+![Fusca! Sinta-se catucado!](./paolo-candelo-ATkJUh6OW2g-unsplash.jpg "https://unsplash.com/@paolocandelo")
+
+> ***Sinta-se catucado!***

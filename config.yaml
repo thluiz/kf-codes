@@ -23,8 +23,6 @@ DefaultContentLanguage: pt
 ## Option to disable additional language in your site.
 disableLanguages: ["ru"]
 
-disableKinds: ["sitemap","RSS"]
-
 # Option to specify that all links will be open in a new tab.
 blackfriday:
   hrefTargetBlank: true
@@ -115,7 +113,7 @@ params:
     # option to specify the title in the homepage
     title: Kung Fu Codes
     # option to specify the subtitle in the homepage
-    subtitle: Personal website and blog
+    subtitle: Kung fu, Coding, and other development systems
     # option to specify image in the homepage
     image: "/images/kungfu.png" # worker.svg 
     # option to specify the width of the image in the homepage
@@ -185,7 +183,7 @@ languages:
     params:
       homepage:
         title: Códigos Kung Fu
-        subtitle: Uma página pessoal sobre desenvolvimento humano, Kung Fu (功夫) e sistemas
+        subtitle: Kung Fu, Códigos e sistemas de desenvolvimento
         image: "/images/kungfu.png" # worker.svg
         imageWidth: 500px
       

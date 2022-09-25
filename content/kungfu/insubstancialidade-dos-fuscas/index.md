@@ -1,7 +1,7 @@
 ---
 date: "2022-09-24"
 title: "A Insubstancialidade dos Fuscas"
-tags: ['Kung Fu', '功夫', "念頭", "Vida Kung Fu"]
+tags: ['Kung Fu', '功夫', 'Vida Kung Fu', 'Sam Faat', '心法']
 summaryImage: "paolo-candelo-ATkJUh6OW2g-unsplash.jpg"
 summary: "3 Historietas sobre carros e outras coisas sem substância"
 ---
@@ -64,7 +64,7 @@ Continuei: - ***"Pensa bem. Ao olhar um fusca na rua a imagem se forma na sua me
 
 Ela virou os olhos, já sabia que eu não ia parar. Entrei numa outra explicação: - ***"Inclusive, o fusca ideal, segundo Platão..."***
 
-Simplesmente acabou o silêncio daquela caminhada, ela ria e retrucava os absurdos já sabendo que no caso de outro silêncio uma nova catucada (*“pedagógica”*) poderia acontecer a qualquer momento. Foi um bom treino de guarda para ela.
+Simplesmente acabou o silêncio daquela caminhada, ela ria e retrucava os absurdos já sabendo que no caso de outro silêncio uma nova catucada (*“pedagógica”*) viria a qualquer momento. Foi um bom treino de guarda para ela.
 
 ***
 

@@ -113,7 +113,7 @@ params:
     # option to specify the title in the homepage
     title: Kung Fu Codes
     # option to specify the subtitle in the homepage
-    subtitle: Kung fu, Coding, and other development systems
+    subtitle: Kung fu, Codes, and other development systems
     # option to specify image in the homepage
     image: "/images/kungfu.png" # worker.svg 
     # option to specify the width of the image in the homepage

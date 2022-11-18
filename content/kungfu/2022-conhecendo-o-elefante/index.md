@@ -15,7 +15,7 @@ Lembrei de uma história sufista sobre três morcegos cegos que encontravam um e
 
 O primeiro tentou passar por baixo do elefante, quase foi pisoteado e gritou:
 
-— *"Cuidado! O elefante é um pilar gigante ponto para te esmagar!"*
+— *"Cuidado! O elefante é um pilar gigante pronto para te esmagar!"*
 
 O segundo passou próximo a tromba:
 

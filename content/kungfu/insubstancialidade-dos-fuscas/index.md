@@ -16,7 +16,7 @@ Ainda durante o Open House no centro de transmissão de {{< ipanema >}} semana p
 
 A história segue, cada vez temos menos carro, porém ainda nos referimos às peças restantes como um veículo.
 
-A conclusão é que as coisas não existem por si só.  Nós é que atribuímos valor e damos substância a tudo - inclusive um diferencial de um bom praticante de Kung Fu ({{<mdbg 功夫>}}]) é a capacidade de ver além do óbvio.
+A conclusão é que as coisas não existem por si só.  Nós é que atribuímos valor e damos substância a tudo - inclusive um diferencial de um bom praticante de Kung Fu ({{<mdbg 功夫>}}) é a capacidade de ver além do óbvio.
 
 Um ponto interessante é que a primeira vez que ouvi essa história foi a mais de 15 anos. {{< sifu >}} provocava uma sonolenta Jade enquanto a levava para o colégio. Eu ia no banco do carona ouvindo muitas vezes sem entender. O que me pergunto agora é se {{< sifu >}} estava de fato falando para ela, ou a usando para me contar;
 

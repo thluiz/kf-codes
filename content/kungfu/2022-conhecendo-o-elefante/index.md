@@ -3,7 +3,7 @@ date: "2022-11-18"
 title: "Conhecendo o elefante"
 tags: ['Vida Kung Fu', 'Sam Faat', '心法', 'Sistemas']
 summaryImage: "elephant-silhoutte-jordan-heinrichs-MgWOWZ8r5Ig-unsplash.jpg"
-summary: "Sobre a completude "
+summary: "Análise de sistemas"
 
 ---
 
@@ -29,10 +29,8 @@ Essa história tem [variações sendo contadas desde de 500 AEC](https://pt.wiki
 
 ***Um sistema não pode ser compreendido analisando suas partes isoladamente.***
 
-
 ***
 
 E você? preparado para ter acesso completo ao sistema Ving Tsun? Procure um dos centros de transmissão do {{< instituto >}}.
 
 ***
-

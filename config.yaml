@@ -161,7 +161,7 @@ params:
     # **uncomment** the below lines to show in footer
     # telegram: 
     #    link: username
-    #    title: Telegram
+    #    title: Telegram - link
     # option to specify the copyright in the footer
     copyright: Thiago Silva - 2022
 

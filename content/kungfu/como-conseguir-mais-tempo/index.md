@@ -26,7 +26,7 @@ summary: "Algumas palavras sobre como conseguir mais tempo"
 
 ***
 
-E você já parou para pensar em como conseguir mais tempo? Procure um dos centros de transmissão do {{< instituto >}}.
+Você já parou para pensar em como conseguir mais tempo? Procure um dos centros de transmissão do {{< instituto >}}.
 
 ***
 

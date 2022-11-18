@@ -9,11 +9,11 @@ summary: "Sobre a completude "
 
 ![Encontros fundamentais do Ving Tsun: Transmissão](./si-fu-encontro-transmissao.png "Encontros fundamentais do Ving Tsun: Transmissão")
 
-Temos feito uma série de encontros sobre temas fundamentais para nossa família, no de hoje, {{< sifu >}} falava sobre como a transmissão do sistema precisa ser completa e me lembrei de uma história sufista:
+Num dos encontros sobre temas fundamentais da nossa família, {{< sifu >}} frisava como é essencial que a transmissão do Ving Tsun seja completa, que ela não pode ser feita de forma parcial.
 
-Três morcegos cegos se encontravam um elefante pela primeira vez.
+Lembrei de uma história sufista sobre três morcegos cegos que encontravam um elefante pela primeira vez:
 
-O primeiro tentou passar por baixo do elefante e quase foi pisoteado:
+O primeiro tentou passar por baixo do elefante, quase foi pisoteado e gritou:
 
 — *"Cuidado! O elefante é um pilar gigante ponto para te esmagar!"*
 
@@ -21,13 +21,13 @@ O segundo passou próximo a tromba:
 
 — *"Não! o elefante é um tubo flexível, deve ser uma cobra! vai dar o bote a qualquer momento!"*
 
-O terceiro, mais calmo, pousou nas costas do elefante:
+O terceiro, menos afoito, pousou nas costas do elefante:
 
 — *"Calma! o elefante é uma cama quente e dura. Vamos descansar?"*
 
-A história é simples, mas tenta ensinar algo que ignoramos constantemente:
+Essa história tem [variações sendo contadas desde de 500 AEC](https://pt.wikipedia.org/wiki/Os_Cegos_e_o_Elefante) e ilustra de forma simples o que o {{< sifu >}} nos explicava: 
 
-***Um sistema não pode ser entendido analisando suas partes isoladamente.***
+***Um sistema não pode ser compreendido analisando suas partes isoladamente.***
 
 
 ***

@@ -1,4 +1,3 @@
-theme = "blowfish"
 defaultContentLanguage = "pt"
 
 enableGitInfo = true
@@ -22,3 +21,6 @@ buildFuture = false
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+  [markup.highlight]
+    noClasses = false
+    lineNos = false

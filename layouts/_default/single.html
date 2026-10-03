@@ -1,0 +1,64 @@
+{{ define "main" }}
+{{ $isPost := in site.Params.mainSections .Section }}
+{{ $toc := and $isPost (gt (len .Fragments.Headings) 0) (ne .TableOfContents "") }}
+<div class="silva-post-layout{{ if $toc }} silva-post-layout--toc{{ end }}">
+  <article class="silva-post"{{ if $isPost }} data-pagefind-body{{ end }}>
+    <div id="blog-hero" class="post-hero">
+      {{ if $isPost }}
+        {{ with .Params.featureimage }}{{ with $.Resources.Get . }}
+          {{ $img := .Fill "748x420 Center" }}
+          <div class="post-cover">
+            <img src="{{ $img.RelPermalink }}" width="{{ $img.Width }}" height="{{ $img.Height }}" alt="{{ $.Params.featureimagealt | default $.Title }}">
+          </div>
+        {{ end }}{{ end }}
+      {{ end }}
+      <h1 class="title">{{ .Title }}</h1>
+      {{ if $isPost }}
+        <p class="post-dateline">
+          <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date | time.Format ":date_long" }}</time> / {{ i18n "readingTime" .ReadingTime }}
+        </p>
+        {{ with .GetTerms "tags" }}
+          <div class="post-tags">
+            {{ partial "icon.html" "tag" }}
+            {{ range $i, $t := . }}{{ if $i }}, {{ end }}<a class="cactus-link" href="{{ $t.RelPermalink }}" data-pagefind-filter="tag">#{{ lower $t.Title }}</a>{{ end }}
+          </div>
+        {{ end }}
+      {{ end }}
+    </div>
+    <div class="prose">
+      {{ .Content }}
+      {{ with .Params.sources }}
+        <section class="post-sources">
+          <p class="post-sources-title">{{ i18n "sources" }}</p>
+          <ol>
+            {{ range . }}
+              <li>
+                {{- if .url }}<a href="{{ .url }}" target="_blank" rel="noreferrer noopener" class="external-link">{{ .title }}</a>{{ else }}<span>{{ .title }}</span>{{ end -}}
+                {{ with .author }}<span class="text-muted"> — {{ . }}</span>{{ end -}}
+                {{ with .year }}<span class="text-muted"> ({{ . }})</span>{{ end -}}
+                {{ with .publisher }}<span class="text-muted">, {{ . }}</span>{{ end -}}
+                {{ with .kind }}<span class="text-muted text-xs"> [{{ . }}]</span>{{ end -}}
+              </li>
+            {{ end }}
+          </ol>
+        </section>
+      {{ end }}
+      {{ with .Params.canonicalURL }}
+        <p class="canonical-note">{{ i18n "canonicalNote" }} <a href="{{ . }}">Silva</a>.</p>
+      {{ end }}
+    </div>
+  </article>
+  {{ if $toc }}
+    <aside class="silva-toc">
+      <a class="silva-toc-title" href="#blog-hero">{{ .Title }}</a>
+      {{ .TableOfContents }}
+    </aside>
+  {{ end }}
+</div>
+{{ if $isPost }}
+  <button class="to-top" id="to-top-btn" data-show="false" type="button">
+    <span class="sr-only">{{ i18n "backToTop" }}</span>
+    <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 15.75l7.5-7.5 7.5 7.5"/></svg>
+  </button>
+{{ end }}
+{{ end }}

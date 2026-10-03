@@ -1,0 +1,11 @@
+{{/* Recebe um slice de taxonomy.OrderedTaxonomyEntry (ByCount) */}}
+<ul class="silva-tag-cloud">
+  {{ range . }}
+    <li>
+      <a href="{{ .Page.RelPermalink }}">
+        <span class="silva-tag-name">#{{ lower .Page.Title }}</span>
+        <span class="silva-tag-count">{{ .Count }}</span>
+      </a>
+    </li>
+  {{ end }}
+</ul>

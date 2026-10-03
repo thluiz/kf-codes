@@ -1,0 +1,17 @@
+{{ define "main" }}
+{{ $posts := .RegularPages.ByDate.Reverse }}
+<div class="list-head">
+  <h1 class="title">{{ .Title }}</h1>
+  {{ with .OutputFormats.Get "rss" }}
+    <a class="text-accent" href="{{ .RelPermalink }}" target="_blank">
+      <span class="sr-only">RSS feed</span>
+      {{ partial "icon.html" "rss" }}
+    </a>
+  {{ end }}
+  <span class="text-muted text-sm">{{ i18n "posts" (len $posts) }}</span>
+</div>
+{{ with .Content }}<div class="prose list-intro">{{ . }}</div>{{ end }}
+<ul class="silva-grid" role="list">
+  {{ range $posts }}{{ partial "card.html" . }}{{ end }}
+</ul>
+{{ end }}

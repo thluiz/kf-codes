@@ -1,17 +1,20 @@
 ---
-date: "2022-09-18"
 title: "Inversão de Valores"
-tags: ['Kung Fu', '功夫']
-summaryImage: "armando-ascorve-morales-XpmsZmAMf_g-unsplash-crop.jpg"
-summary: "Algumas palavras sobre valores"
+date: "2019-11-05"
+description: "Algumas palavras sobre uma historieta que o Si Fu nos contou"
+tags: ["vida kung fu", "sam faat", "心法", "historietas"]
+featureimage: "armando-ascorve-morales-XpmsZmAMf_g-unsplash-crop.jpg"
+featureimagealt: "Foto por Armando Ascorve Morales no Unsplash"
+canonicalURL: "https://silva.thluiz.com/posts/inversao-de-valores/"
+silvaeSlug: "inversao-de-valores"
+silvaeCommit: "8c5583805d153c511bda20803892e40f806d6020"
 ---
-
 Certa vez [Si Fu](http://mestrejuliocamacho.com "Mestre Julio Camacho") nos contou a seguinte historieta: 
 
  _Uma menina curiosa de uma família muito rica estava auxiliando sua mãe no preparo do jantar. Sua mãe pegava um Filet Mignon e ia "descascando" a carne até sobrar apenas seu miolo com um vermelho bem vivo e fresco._ 
 
 
-![Só o medalhão do filet](./wesual-click-DxJvLtab4ak-unsplash-crop.jpg "Só o medalhão do filet - https://unsplash.com/@wesual")
+![Só o medalhão do filet](./wesual-click-DxJvLtab4ak-unsplash-crop.jpg "https://unsplash.com/@wesual")
 
  
 *Intrigada a menina perguntou: __"Mamãe, o que fazemos com toda essa carne que sobra?"__*
@@ -30,7 +33,7 @@ Certa vez [Si Fu](http://mestrejuliocamacho.com "Mestre Julio Camacho") nos cont
 
 *— __"Diacho, Menina! Coisa da sua Avó, sempre fizemos assim."__*
 
-![Visitando a Vovó](./annie-spratt-s0eeLwNxcns-unsplash-cropped.jpg "Visitando a Vovó - https://unsplash.com/@anniespratt")
+![Visitando a Vovó](./annie-spratt-s0eeLwNxcns-unsplash-cropped.jpg "https://unsplash.com/@anniespratt")
 
 *Naquela noite a menina mal dormiu, estava ainda mais incomodada e decidiu que iria tirar essa história a limpo. Partiu para a casa dos avós impaciente, ao chegar já sentindo o cheiro do almoço, correu para a cozinha e saiu perguntando:*
 
@@ -48,10 +51,9 @@ Certa vez [Si Fu](http://mestrejuliocamacho.com "Mestre Julio Camacho") nos cont
 
 <hr />
 
-A história vai até aí. Dado o título já é possível concluir a mensagem principal dela: A limpeza da carne para salvar o que fosse possível, se tornara o motor um desperdício sem propósito, descartando partes valiosas do conteúdo. Colocando uma "Lente Kung Fu ([功夫](https://algumaspalavras.com.br/etimologia-do-termo-kung-fu))" fica claro o quanto podemos deturpar um processo ao executá-lo sem atentar para seu [念頭](https://www.mdbg.net/chinese/dictionary?page=word dict&wdrst=0&wdqb=%E5%BF%B5%E9%A0%AD) (niàntou / nim6tau4). 
+A história vai até aí. Dado o título já é possível concluir a mensagem principal dela: A limpeza da carne para salvar o que fosse possível, se tornara o motor um desperdício sem propósito, descartando partes valiosas do conteúdo. Colocando uma "Lente Kung Fu ([功夫](https://algumaspalavras.com.br/etimologia-do-termo-kung-fu))" fica claro o quanto podemos deturpar um processo ao executá-lo sem atentar para seu [念頭](https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=%E5%BF%B5%E9%A0%AD) (niàntou / nim6tau4). 
 
 Logo, mesmo no mais simples procedimento podemos estar condenando todas gerações futuras, traindo todo o objetivo original. Aliás, [Si Fu](http://mestrejuliocamacho.com "Mestre Julio Camacho") sempre comenta que Traição e Tradição tem a mesma raíz etimológica, mas deixaremos algumas palavras sobre isso no futuro.
 
-***
+E você já parou para pensar no [念頭](https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=%E5%BF%B5%E9%A0%AD) das ações cotidianas? Que tal estar mais atento ao momento presente? Procure um dos núcleos da [Moy Yat Ving Tsun](http://www.myvt-rio.org/) na sua cidade. 
 
-E você já parou para pensar no [念頭](https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=%E5%BF%B5%E9%A0%AD) das ações cotidianas? Que tal estar mais atento ao momento presente? Procure um dos centros de transmissão do [Instituto Julio Camacho](https://mestrejuliocamacho.com).

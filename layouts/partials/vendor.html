@@ -1,0 +1,65 @@
+{{/* Bibliotecas pesadas só nas páginas que usam o shortcode correspondente */}}
+{{ if .HasShortcode "mermaid" }}
+  {{ $lib := resources.Get "lib/mermaid/mermaid.min.js" | resources.Fingerprint }}
+  <script src="{{ $lib.RelPermalink }}" integrity="{{ $lib.Data.Integrity }}"></script>
+  <script>
+    (function () {
+      // Cores da paleta, relidas a cada troca de tema (o Mermaid só tema na renderização)
+      function v(n) { return getComputedStyle(document.documentElement).getPropertyValue(n).trim(); }
+      function render() {
+        var dark = document.documentElement.getAttribute("data-theme") === "dark";
+        mermaid.initialize({
+          startOnLoad: false,
+          theme: "base",
+          fontFamily: "ui-monospace, SFMono-Regular, Menlo, Consolas, monospace",
+          themeVariables: {
+            darkMode: dark,
+            background: v("--color-surface"),
+            primaryColor: v("--color-surface-2"),
+            primaryTextColor: v("--color-global-text"),
+            primaryBorderColor: v("--color-accent"),
+            secondaryColor: v("--color-surface"),
+            tertiaryColor: v("--color-global-bg"),
+            lineColor: v("--color-muted"),
+            textColor: v("--color-global-text")
+          }
+        });
+        document.querySelectorAll("pre.mermaid").forEach(function (el) {
+          el.removeAttribute("data-processed");
+          el.textContent = el.getAttribute("data-source");
+        });
+        mermaid.run({ querySelector: "pre.mermaid" });
+      }
+      document.addEventListener("DOMContentLoaded", render);
+      document.addEventListener("theme-changed", render);
+    })();
+  </script>
+{{ end }}
+{{ if .HasShortcode "chart" }}
+  {{ $lib := resources.Get "lib/chart/chart.min.js" | resources.Fingerprint }}
+  <script src="{{ $lib.RelPermalink }}" integrity="{{ $lib.Data.Integrity }}"></script>
+  <script>
+    (function () {
+      function v(n) { return getComputedStyle(document.documentElement).getPropertyValue(n).trim(); }
+      // As variáveis da paleta são hex de 6 dígitos; o sufixo é o alfa (o canvas não entende color-mix)
+      function colors() {
+        var accent = v("--color-accent");
+        Chart.defaults.color = v("--color-global-text");
+        Chart.defaults.borderColor = v("--color-muted") + "4d";
+        Chart.defaults.backgroundColor = accent + "59";
+        Chart.defaults.elements.line.borderColor = accent;
+        Chart.defaults.elements.point.borderColor = accent;
+        Chart.defaults.elements.bar.borderColor = accent;
+        Chart.defaults.elements.arc.borderColor = v("--color-surface");
+      }
+      Chart.defaults.font.family = "ui-monospace, SFMono-Regular, Menlo, Consolas, monospace";
+      Chart.defaults.font.size = 13;
+      Chart.defaults.elements.bar.borderWidth = 1;
+      colors();
+      document.addEventListener("theme-changed", function () {
+        colors();
+        Object.values(Chart.instances).forEach(function (c) { c.update(); });
+      });
+    })();
+  </script>
+{{ end }}

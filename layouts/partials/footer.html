@@ -1,0 +1,19 @@
+<footer class="site-footer">
+  <nav class="footer-nav" aria-label="Footer">
+    {{ range site.Menus.main }}<a href="{{ .URL }}">{{ .Name }}</a>{{ end }}
+  </nav>
+  <div class="footer-line">
+    <span>&copy; {{ site.Params.author.name | default "Thiago Silva" }} {{ now.Year }}</span>
+    <span>·</span>
+    {{ with site.GetPage "about" }}<a class="underline" href="{{ .RelPermalink }}">{{ site.Title }}</a>{{ else }}<span>{{ site.Title }}</span>{{ end }}
+    <span>·</span>
+    <a href="https://scholion.thluiz.com/notes/moy-chi-yau-si/" target="_blank" rel="noreferrer"><span class="underline mcys">知友士</span></a>
+    <span>·</span>
+    <a class="underline" href="https://silva.thluiz.com/" target="_blank" rel="noreferrer">Silva</a>
+    <span>·</span>
+    <a href="https://github.com/thluiz" target="_blank" rel="noreferrer" title="GitHub">
+      {{ partial "icon.html" "github" }}
+      <span class="sr-only">GitHub</span>
+    </a>
+  </div>
+</footer>

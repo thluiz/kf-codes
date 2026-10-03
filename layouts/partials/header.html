@@ -1,0 +1,60 @@
+<header class="site-header" id="main-header">
+  <div class="site-brand-wrap">
+    <a class="site-brand" href="{{ site.Home.RelPermalink }}"{{ if .IsHome }} aria-current="page"{{ end }}>
+      <img class="site-seal" src="{{ "images/seal.png" | relURL }}" alt="" width="56" height="56">
+      <span class="site-title">{{ site.Title }}</span>
+    </a>
+    <nav class="site-nav" id="navigation-menu" aria-label="Main menu">
+      {{ $current := . }}
+      {{ range site.Menus.main }}
+        {{ $active := and .Page (eq .Page.RelPermalink $current.RelPermalink) }}
+        <a href="{{ .URL }}"{{ if $active }} aria-current="page"{{ end }}>{{ .Name }}</a>
+      {{ end }}
+    </nav>
+  </div>
+  {{/* Multihost: cada idioma é outro domínio, então os links são absolutos.
+       Sem tradução da página, cai na home do outro site. */}}
+  <nav class="lang-switch" aria-label="Language">
+    {{ $page := . }}
+    {{ range hugo.Sites }}
+      {{ $target := .Home.Permalink }}
+      {{ $lang := .Language.Lang }}
+      {{ range $page.AllTranslations }}{{ if eq .Language.Lang $lang }}{{ $target = .Permalink }}{{ end }}{{ end }}
+      {{ if eq $lang site.Language.Lang }}
+        <span aria-current="true">{{ .Language.Params.displayName }}</span>
+      {{ else }}
+        <a href="{{ $target }}" hreflang="{{ .Language.Locale }}" title="{{ .Language.Label }}">{{ .Language.Params.displayName }}</a>
+      {{ end }}
+    {{ end }}
+  </nav>
+  <a class="icon-link icon-link--first" href="https://github.com/thluiz" target="_blank" rel="noreferrer" title="GitHub">
+    {{ partial "icon.html" "github" }}
+    <span class="sr-only">GitHub</span>
+  </a>
+  <a class="icon-link" href="https://www.linkedin.com/in/thluiz" target="_blank" rel="noreferrer" title="LinkedIn">
+    {{ partial "icon.html" "linkedin" }}
+    <span class="sr-only">LinkedIn</span>
+  </a>
+  <div class="site-search" id="search">
+    <button class="icon-button" type="button" data-open-modal aria-keyshortcuts="Control+K Meta+K" title="{{ i18n "search" }}">
+      <svg aria-hidden="true" viewBox="0 0 24 24" class="icon icon-lg" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10a7 7 0 1 0 14 0 7 7 0 1 0-14 0M21 21l-6-6"/></svg>
+      <span class="sr-only">{{ i18n "search" }}</span>
+    </button>
+    <dialog aria-label="{{ i18n "search" }}" data-bundle="{{ "pagefind/" | relURL }}">
+      <div class="dialog-frame">
+        <button class="dialog-close" type="button" data-close-modal>{{ i18n "close" }}</button>
+        <div id="site__search"></div>
+      </div>
+    </dialog>
+  </div>
+  <button class="icon-button theme-toggle" type="button" role="switch" aria-checked="false" title="{{ i18n "toggleTheme" }}">
+    <span class="sr-only">{{ i18n "toggleTheme" }}</span>
+    <svg aria-hidden="true" class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 18a6 6 0 1 0 0-12 6 6 0 0 0 0 12ZM22 12h1M12 2V1M12 23v-1M20 20l-1-1M20 4l-1 1M4 20l1-1M4 4l1 1M1 12h1"/></svg>
+    <svg aria-hidden="true" class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3h.393a7.5 7.5 0 0 0 7.92 12.446A9 9 0 1 1 12 2.992zM17 4a2 2 0 0 0 2 2 2 2 0 0 0-2 2 2 2 0 0 0-2-2 2 2 0 0 0 2-2M19 11h2m-1-1v2"/></svg>
+  </button>
+  <button class="icon-button menu-toggle" type="button" aria-expanded="false" aria-haspopup="menu" aria-controls="navigation-menu">
+    <span class="sr-only">{{ i18n "menu" }}</span>
+    <svg aria-hidden="true" class="bars" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M3.75 9h16.5m-16.5 6.75h16.5"/></svg>
+    <svg aria-hidden="true" class="cross" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M6 18 18 6M6 6l12 12"/></svg>
+  </button>
+</header>

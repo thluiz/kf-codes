@@ -1,0 +1,25 @@
+{{/* Mesma sintaxe do Blowfish: <img> com classes de largura (grid-w33, md:grid-w50…).
+     {{< gallery >}}
+       <img src="foto1.jpg" class="grid-w50 md:grid-w33" alt="…" />
+       <img src="foto2.jpg" class="grid-w50 md:grid-w33" alt="…" />
+     {{< /gallery >}}
+   src relativo é resolvido nos recursos do post. Layout só com CSS (flex-wrap), sem o Packery do Blowfish. */}}
+{{ $content := .Inner }}
+{{ range findRE `<img\s+[^>]*>` $content }}
+  {{ $tag := . }}
+  {{ $new := $tag }}
+  {{ with findRESubmatch `src=['"]([^'"]+)['"]` $tag }}
+    {{ $attr := index (index . 0) 0 }}
+    {{ $src := index (index . 0) 1 }}
+    {{ if not (or (hasPrefix $src "http://") (hasPrefix $src "https://") (hasPrefix $src "/")) }}
+      {{ with $.Page.Resources.GetMatch (strings.TrimPrefix "./" $src) }}
+        {{ $new = replace $new $attr (printf `src="%s" loading="lazy"` .RelPermalink) }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+  {{ if not (findRE `\salt=` $new) }}{{ $new = replaceRE `^<img\s` `<img alt="" ` $new }}{{ end }}
+  {{ $content = replace $content $tag $new }}
+{{ end }}
+<div class="gallery">
+  {{ $content | safeHTML }}
+</div>

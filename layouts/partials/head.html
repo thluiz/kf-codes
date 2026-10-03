@@ -1,0 +1,43 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+{{ $title := cond .IsHome site.Title (printf "%s · %s" .Title site.Title) }}
+<title>{{ $title }}</title>
+{{ $desc := .Description | default .Params.summary | default site.Params.description }}
+<meta name="description" content="{{ $desc }}">
+<meta name="author" content="{{ site.Params.author.name | default "Thiago Silva" }}">
+{{/* Posts trazidos do Silvae apontam a canônica para lá (canonicalURL no front matter) */}}
+<link rel="canonical" href="{{ .Params.canonicalURL | default .Permalink }}">
+{{ if not .Params.canonicalURL }}
+  {{ range .AllTranslations }}
+    <link rel="alternate" hreflang="{{ .Language.Locale }}" href="{{ .Permalink }}">
+  {{ end }}
+{{ end }}
+{{ with .OutputFormats.Get "rss" }}<link rel="alternate" type="application/rss+xml" href="{{ .Permalink }}" title="{{ site.Title }}">{{ end }}
+<link rel="icon" href="{{ "images/favicon.png" | absURL }}">
+<meta property="og:title" content="{{ $title }}">
+<meta property="og:description" content="{{ $desc }}">
+<meta property="og:type" content="{{ cond .IsPage "article" "website" }}">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:locale" content="{{ replace (site.Language.Locale) "-" "_" }}">
+{{ with .Params.featureimage }}{{ with $.Resources.Get . }}<meta property="og:image" content="{{ (.Fill "1200x630 Center").Permalink }}">{{ end }}{{ end }}
+<meta name="twitter:card" content="summary_large_image">
+{{/* Inline e bloqueante: evita o flash de tema errado (mesmo esquema do ThemeProvider do Silvae) */}}
+<script>
+  (function () {
+    var light = window.matchMedia("(prefers-color-scheme: light)");
+    function pref() {
+      try { return localStorage.getItem("theme") || (light.matches ? "light" : "dark"); }
+      catch (e) { return light.matches ? "light" : "dark"; }
+    }
+    window.setTheme = function (t) {
+      document.documentElement.setAttribute("data-theme", t);
+      try { localStorage.setItem("theme", t); } catch (e) {}
+      // mermaid/chart (partials/vendor.html) redesenham com as cores do tema novo
+      document.dispatchEvent(new CustomEvent("theme-changed", { detail: { theme: t } }));
+    };
+    document.documentElement.setAttribute("data-theme", pref());
+    light.addEventListener("change", function (e) { window.setTheme(e.matches ? "light" : "dark"); });
+  })();
+</script>
+{{ $css := slice (resources.Get "css/main.css") (resources.Get "css/syntax.css") | resources.Concat "css/main.css" | resources.Minify | resources.Fingerprint }}
+<link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">

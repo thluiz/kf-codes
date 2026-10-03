@@ -1,0 +1,41 @@
+{{ define "main" }}
+{{ $posts := (where site.RegularPages "Section" "in" site.Params.mainSections).ByDate.Reverse }}
+{{ $pinned := first 3 (sort (where $posts "Params.pinned" true) "Params.pin_weight" "desc") }}
+{{ $recent := first 12 ($posts | complement $pinned) }}
+<section class="silva-home">
+  <p>{{ site.Params.description }}</p>
+  <p class="home-meta">
+    {{ with site.GetPage "about" }}<a class="cactus-link text-accent" href="{{ .RelPermalink }}">{{ i18n "aboutLink" }}</a> · {{ end }}
+    <span class="text-muted">{{ i18n "posts" (len $posts) }}</span>
+  </p>
+
+  {{ with $pinned }}
+    <section class="silva-home-section">
+      <h2 class="silva-home-section-title">{{ i18n "featured" }}</h2>
+      <ul class="silva-grid silva-grid--pinned" role="list">
+        {{ range . }}{{ partial "card.html" . }}{{ end }}
+      </ul>
+    </section>
+  {{ end }}
+
+  <section class="silva-home-section">
+    <div class="silva-home-section-head">
+      <h2 class="silva-home-section-title">{{ i18n "recent" }}</h2>
+      {{ with site.GetPage (index site.Params.mainSections 0) }}<a class="cactus-link text-accent text-sm" href="{{ .RelPermalink }}">{{ i18n "seeAll" }}</a>{{ end }}
+    </div>
+    <ul class="silva-grid" role="list">
+      {{ range $recent }}{{ partial "card.html" . }}{{ end }}
+    </ul>
+  </section>
+
+  {{ with site.Taxonomies.tags }}
+    <section class="silva-home-section">
+      <div class="silva-home-section-head">
+        <h2 class="silva-home-section-title">{{ i18n "exploreTags" }}</h2>
+        {{ with site.GetPage "tags" }}<a class="cactus-link text-accent text-sm" href="{{ .RelPermalink }}">{{ i18n "allTags" }}</a>{{ end }}
+      </div>
+      {{ partial "tag-cloud.html" (first 12 .ByCount) }}
+    </section>
+  {{ end }}
+</section>
+{{ end }}

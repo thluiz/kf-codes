@@ -1,0 +1,11 @@
+{{ define "main" }}
+<nav class="breadcrumbs" aria-label="Breadcrumbs">
+  {{ with .Parent }}<a class="text-accent" href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }}
+  <span aria-hidden="true" class="crumb-sep">›</span>
+  <span aria-current="page"><span aria-hidden="true">#</span>{{ lower .Title }}</span>
+</nav>
+<h1 class="title mb-8">#{{ lower .Title }}</h1>
+<ul class="silva-grid" role="list">
+  {{ range .Pages.ByDate.Reverse }}{{ partial "card.html" . }}{{ end }}
+</ul>
+{{ end }}

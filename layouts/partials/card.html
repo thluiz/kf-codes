@@ -1,0 +1,26 @@
+{{/* Card do mosaico, espelho do PostCard.astro do Silvae */}}
+{{ $cover := "" }}
+{{ with .Params.featureimage }}{{ $cover = $.Resources.Get . }}{{ end }}
+<li class="silva-card{{ if .Params.pinned }} silva-card--pinned{{ end }}{{ if $cover }} silva-card--has-cover{{ end }}">
+  <a href="{{ .RelPermalink }}">
+    {{ with $cover }}
+      {{ $thumb := .Fill "400x200 Center" }}
+      <div class="silva-card-cover">
+        <img src="{{ $thumb.RelPermalink }}" width="{{ $thumb.Width }}" height="{{ $thumb.Height }}" alt="{{ $.Params.featureimagealt | default $.Title }}" loading="lazy">
+      </div>
+    {{ end }}
+    <div class="silva-card-body">
+      <h2 class="silva-card-title">{{ .Title }}</h2>
+      {{ with .Description | default .Params.summary }}<p class="silva-card-summary">{{ . }}</p>{{ end }}
+    </div>
+    <div class="silva-card-meta">
+      {{ with .Params.tags }}
+        <ul class="silva-card-tags">
+          {{ range first 3 . }}<li>#{{ lower . }}</li>{{ end }}
+        </ul>
+      {{ end }}
+      <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date | time.Format ":date_medium" }}</time>
+    </div>
+    {{ if .Params.pinned }}<span class="silva-card-pin">★</span>{{ end }}
+  </a>
+</li>

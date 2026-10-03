@@ -1,0 +1,16 @@
+{{/* Mesma sintaxe do Blowfish: o conteúdo é o objeto de configuração do Chart.js, sem as chaves externas.
+     {{< chart >}}
+     type: 'bar',
+     data: { labels: ['A', 'B'], datasets: [{ label: 'X', data: [1, 2] }] },
+     {{< /chart >}} */}}
+{{ $id := printf "chart-%s" (md5 (printf "%s-%d" .Page.RelPermalink .Ordinal)) }}
+<div class="chart">
+  <canvas id="{{ $id }}"></canvas>
+  <script>
+    window.addEventListener("DOMContentLoaded", function () {
+      new Chart(document.getElementById("{{ $id }}"), {
+        {{ .Inner | safeJS }}
+      });
+    });
+  </script>
+</div>

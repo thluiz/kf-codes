@@ -1,0 +1,5 @@
+{{ define "main" }}
+<h1 class="title mb-2">{{ .Title }}</h1>
+<p class="text-muted text-sm mb-6">{{ i18n "tags" (len .Data.Terms) }}</p>
+{{ partial "tag-cloud.html" .Data.Terms.ByCount }}
+{{ end }}

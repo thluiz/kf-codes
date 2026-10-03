@@ -1,0 +1,21 @@
+locale = "pt-BR"
+label = "Português"
+weight = 1
+title = "Códigos Kung Fu"
+baseURL = "https://codigoskungfu.com/"
+contentDir = "content/pt"
+
+[params]
+  displayName = "PT"
+  isoCode = "pt-br"
+  rtl = false
+  dateFormat = "2 Jan 2006"
+  description = "Kung Fu, códigos e sistemas de desenvolvimento"
+
+[author]
+  name = "Thiago Silva"
+  headline = "Códigos Kung Fu"
+  bio = "Kung Fu, códigos e sistemas de desenvolvimento."
+  links = [
+    { github = "https://github.com/thluiz" },
+  ]

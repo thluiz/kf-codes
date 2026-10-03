@@ -1,0 +1,24 @@
+theme = "blowfish"
+defaultContentLanguage = "pt"
+
+enableGitInfo = true
+enableRobotsTXT = true
+enableEmoji = true
+summaryLength = 30
+
+buildDrafts = false
+buildFuture = false
+
+[pagination]
+  pagerSize = 10
+
+[taxonomies]
+  tag = "tags"
+
+[outputs]
+  home = ["HTML", "RSS"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

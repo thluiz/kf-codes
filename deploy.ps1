@@ -77,6 +77,15 @@ foreach ($l in $Lang) {
     $toUpload = @($newManifest.Keys | Where-Object { $prevManifest[$_] -ne $newManifest[$_] })
     $toDelete = @($prevManifest.Keys | Where-Object { -not $newManifest.ContainsKey($_) })
 
+    # O Pagefind serializa o índice de filtros (tags) em ordem variável: sem nenhuma página
+    # mudar, pagefind-entry.json e dois .pf_* mudam a cada build. Se só isso mudou, o índice
+    # no ar continua valendo para as mesmas páginas; não sobe nada.
+    $changed = @($toUpload) + @($toDelete)
+    if ($changed.Count -gt 0 -and -not ($changed | Where-Object { $_ -notmatch '^pagefind\\' })) {
+        Write-Host "  só o índice do Pagefind mudou (ordem não determinística) — skip S3" -ForegroundColor Yellow
+        continue
+    }
+
     Write-Host "  upload: $($toUpload.Count) | delete: $($toDelete.Count)"
     if ($toUpload.Count -eq 0 -and $toDelete.Count -eq 0) {
         Write-Host "  sem alterações — skip S3" -ForegroundColor Yellow

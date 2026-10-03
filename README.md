@@ -126,9 +126,9 @@ Deploy infrastructure:
 - [x] Decide S3 bucket names and CloudFront distribution IDs for the three domains, or create them if they don't exist yet
 - [x] Decide which AWS profile/credentials to use (a dedicated one, like Scholion's `scholion-admin`, or reuse an existing one)
 - [x] Write `deploy.ps1` following the Scholion/Vox pattern (Hugo build, incremental S3 sync per language folder, CloudFront invalidation)
-- [ ] Confirm `kungfu.codes` nameserver propagation finished on Cloudflare
+- [x] Confirm `kungfu.codes` nameserver propagation finished on Cloudflare
 - [x] Point all three domains at their actual hosting once the S3/CloudFront setup exists (DNS zones exist in Cloudflare, nothing resolves to a host yet)
-- [ ] Push the local commits (kf-codes, ving-tsun-system-guide, vox) once reviewed
+- [x] Push the local commits (kf-codes, ving-tsun-system-guide, vox) once reviewed
 
 Local verification:
 

@@ -15,7 +15,7 @@ No Encontro Temático à Distância dessa semana, Matheus Azevedo propôs que se
 
 O primeiro ideograma [功](https://www.mdbg.net/chinese/dictionary?cdqchi=%E5%8A%9F) (gōng em mandarim e gung1 em cantonês - lido erroneamente como "kungui"), é formado por dois outros: [工](https://www.mdbg.net/chinese/dictionary?cdqchi=%E5%B7%A5) (gōng - mesma leitura),  faz referência ao trabalho propriamente dito ou ao esforço, muitas vezes intelectual, para executar uma tarefa e [力](https://www.mdbg.net/chinese/dictionary?cdqchi=%E5%8A%9B) (lì/lik6) que pode ser traduzido literalmente como energia, remetendo ao desenho de um arado de terra. A junção dos dois passa a ideia de uma realização por mérito, um bom resultado por meio de um trabalho árduo ou dedicado.
 
-O segundo ideograma é [天](https://www.mdbg.net/chinese/dictionary?cdqchi=%E5%A4%A9)  (fū / fu1), é formado por [大](https://www.mdbg.net/chinese/dictionary?cdqchi=%E5%A4%A7) (dài/daai6) que seria uma grande pessoa e com uma presilha nos cabelos em referência à como os homens casados (ou maduros) prendiam o cabelo na china antiga.
+O segundo ideograma é [夫](https://www.mdbg.net/chinese/dictionary?cdqchi=%E5%A4%AB)  (fū / fu1), é formado por [大](https://www.mdbg.net/chinese/dictionary?cdqchi=%E5%A4%A7) (dài/daai6) que seria uma grande pessoa e com uma presilha nos cabelos em referência à como os homens casados (ou maduros) prendiam o cabelo na china antiga.
 
 ![Terra arada para plantio, município de Avaré, São Paulo, Brasil | Autor: José Reynaldo da Fonseca|Licença= self2,GFDL,cc-by-2.5 ](./Arado01.JPG)
 

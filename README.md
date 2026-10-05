@@ -68,6 +68,8 @@ python scripts/silvae.py pull <slug>                # (re)import into pt/kungfu
 python scripts/silvae.py pull --to en/codes <slug>  # any <lang>/<section> under content/
 ```
 
+`deploy.ps1` runs the check on every deploy and warns, without blocking. The script reads `E:/silva` from disk and warns when that clone is behind `origin`.
+
 What stays only on Silva: heavy philosophy and politics (`organizacoes-contra-a-entropia`, `welcome`), linguistics (`academia-sinica-2000-anos-etimologia`), the Programa de Mestrado records, and the travel diaries (SIVKF, Buenos Aires) as they are.
 
 ### Tags across languages
@@ -90,7 +92,30 @@ A new tag needs a dictionary entry before `sync`; until then `check` flags it an
 
 `kungfu` (all three sites) and Códigos/Codes for development, architecture and career: `content/pt/codigos/` and `content/en/codes/`, linked as translations through `translationKey: "codigos"`. `mainSections` lists all three section names; Spanish gets the section once it has content.
 
-`deploy.ps1` runs the check on every deploy and warns, without blocking. The script reads `E:/silva` from disk and warns when that clone is behind `origin`.
+## Publishing
+
+```powershell
+pwsh -NoProfile -File deploy.ps1
+```
+
+That is the whole publish: Hugo build, Pagefind index per site, tag and Silva checks (warnings only), upload of what changed to S3, CloudFront invalidation for the sites that changed. It runs by hand; there is no scheduled task, unlike Scholion.
+
+What it does **not** do:
+
+- **No git.** It publishes the working tree as it is, committed or not, and never pulls, commits or pushes. Commit before deploying: the build uses git dates (`enableGitInfo`), so deploying uncommitted work makes the next deploy after the commit re-upload those pages.
+- **No tag pages.** A new tag needs an entry in `data/tags.toml` and `python scripts/tags.py sync`; the deploy only warns.
+- **No Silva re-import.** It warns when a post changed on Silva; re-import with `python scripts/silvae.py pull --outdated`.
+
+Requirements (all present on Hermes-PT): Hugo extended, `node`/`npx` (Pagefind is fetched by `npx`, pinned to 1.5.2), Python 3.11+ (the scripts use `tomllib`), AWS CLI with the `scholion-admin` profile.
+
+A new post, end to end:
+
+1. Write it under `content/<lang>/<section>/<slug>/index.md` (`kungfu`, `codigos`/`codes`).
+2. New tag? Add it to `data/tags.toml`, then `python scripts/tags.py sync`.
+3. Commit (and push).
+4. `pwsh -NoProfile -File deploy.ps1`.
+
+From Silva instead: `python scripts/silvae.py pull [--to <lang>/<section>] <slug>`, then steps 2 to 4.
 
 ## Deployment
 

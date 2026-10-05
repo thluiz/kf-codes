@@ -1,0 +1,175 @@
+# Dicionário de tags: um conceito por tabela, com o nome da tag em cada idioma.
+#
+# - Os posts usam a tag no próprio idioma; a URL sai do nome (/tags/carreira/, /tags/career/).
+# - scripts/tags.py sync gera content/<lang>/tags/<slug>/_index.md com translationKey "tag-<chave>",
+#   que liga as páginas da mesma tag entre os três sites (seletor de idioma, hreflang).
+# - Nome coincidente entre idiomas (sistemas em PT e ES, kung fu em todos): mesma chave, mesma
+#   página ligada. Falso cognato (mesma grafia, sentido diferente): chaves separadas.
+# - pt é exatamente o que o Silva usa (os posts PT vêm de lá); scripts/silvae.py traduz pt -> en/es
+#   ao importar para outro idioma.
+
+# --- Kung Fu ---
+[kung-fu]
+pt = "kung fu"
+en = "kung fu"
+es = "kung fu"
+
+[ving-tsun]
+pt = "ving tsun"
+en = "ving tsun"
+es = "ving tsun"
+
+[kung-fu-life]
+pt = "vida kung fu"
+en = "kung fu life"
+es = "vida kung fu"
+
+[sam-faat]
+pt = "sam faat"
+en = "sam faat"
+es = "sam faat"
+
+[kuen-kuit]
+pt = "kuen kuit"
+en = "kuen kuit"
+es = "kuen kuit"
+
+[etd]
+# Encontro Temático à Distância: sigla própria, não se traduz
+pt = "etd"
+en = "etd"
+es = "etd"
+
+[martial-arts]
+pt = "artes-marciais"
+en = "martial arts"
+es = "artes marciales"
+
+[buddhism]
+pt = "budismo"
+en = "buddhism"
+es = "budismo"
+
+[gong-fu]
+pt = "功夫"
+en = "功夫"
+es = "功夫"
+
+[sam-faat-hanzi]
+pt = "心法"
+en = "心法"
+es = "心法"
+
+[kuen-kuit-hanzi]
+pt = "拳訣"
+en = "拳訣"
+es = "拳訣"
+
+[wing-chun-hanzi]
+pt = "永春"
+en = "永春"
+es = "永春"
+
+# --- História, línguas ---
+[china]
+pt = "china"
+en = "china"
+es = "china"
+
+[ming]
+pt = "ming"
+en = "ming"
+es = "ming"
+
+[biography]
+pt = "biografia"
+en = "biography"
+es = "biografía"
+
+[etymology]
+pt = "etimologia"
+en = "etymology"
+es = "etimología"
+
+[anecdotes]
+# Falso cognato: em espanhol "historieta" é história em quadrinhos
+pt = "historietas"
+en = "anecdotes"
+es = "anécdotas"
+
+# --- Sistemas, carreira ---
+[systems]
+pt = "sistemas"
+en = "systems"
+es = "sistemas"
+
+[career]
+pt = "carreira"
+en = "career"
+es = "carrera"
+
+[job-market]
+pt = "mercado-de-trabalho"
+en = "job market"
+es = "mercado laboral"
+
+[ai]
+pt = "ai"
+en = "ai"
+es = "ia"
+
+# --- Técnico ---
+[technical]
+pt = "tecnico"
+en = "technical"
+es = "técnico"
+
+[architecture]
+pt = "arquitetura"
+en = "architecture"
+es = "arquitectura"
+
+[tests]
+pt = "testes"
+en = "tests"
+es = "pruebas"
+
+[solid]
+pt = "solid"
+en = "solid"
+es = "solid"
+
+[javascript]
+pt = "javascript"
+en = "javascript"
+es = "javascript"
+
+[elixir]
+pt = "elixir"
+en = "elixir"
+es = "elixir"
+
+[phoenix]
+pt = "phoenix"
+en = "phoenix"
+es = "phoenix"
+
+[webrtc]
+pt = "webrtc"
+en = "webrtc"
+es = "webrtc"
+
+[dart]
+pt = "dart"
+en = "dart"
+es = "dart"
+
+[gamedev]
+pt = "gamedev"
+en = "gamedev"
+es = "gamedev"
+
+[rpg]
+pt = "rpg"
+en = "rpg"
+es = "rpg"

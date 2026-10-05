@@ -2,7 +2,7 @@
 title: "Spying (on) Methods with Jest"
 date: "2021-07-13"
 description: "Spying on methods to check application logic"
-tags: ["tecnico", "tests", "javascript"]
+tags: ["technical", "tests", "javascript"]
 featureimage: "spy-methods-cover.jpeg"
 featureimagealt: "Spy methods with Jest"
 canonicalURL: "https://silva.thluiz.com/posts/spying-on-methods-jest/"

@@ -1,7 +1,7 @@
 ---
 date: "2022-11-18"
 title: "Knowing the elephant"
-tags: ['Kung Fu Life', 'Sam Faat', '心法', 'Systems']
+tags: ["kung fu life", "sam faat", "心法", "systems"]
 featureimage: "elephant-silhoutte-jordan-heinrichs-MgWOWZ8r5Ig-unsplash.jpg"
 summary: "Systems analysis"
 

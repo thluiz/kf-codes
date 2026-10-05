@@ -2,7 +2,7 @@
 title: "A gentle introduction to dependency injection"
 date: "2021-08-25"
 description: "A seminal principle to make applications testable"
-tags: ["tecnico", "solid", "architecture", "tests"]
+tags: ["technical", "solid", "architecture", "tests"]
 featureimage: "dependency-injection.jpg"
 featureimagealt: "Dependency injection diagram"
 canonicalURL: "https://silva.thluiz.com/posts/gentle-introduction-to-dependency-injection/"

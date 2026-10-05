@@ -5,6 +5,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/),
 and this project adheres to [Semantic Versioning](https://semver.org/) where applicable.
 
+## [0.3.0] - 2026-10-05
+
+### Added
+
+- Tags translated across the three sites: `data/tags.toml` dictionary (one concept per entry, name in PT/EN/ES) and `scripts/tags.py` (`sync` generates tag pages with `translationKey`, `check` flags unknown tags or stale pages, `fix` normalizes post tags). `deploy.ps1` runs the check.
+
+### Changed
+
+- `scripts/silvae.py` translates tags through the dictionary when importing into EN/ES. The two EN posts from Silva went from `tecnico` to `technical`.
+- EN/ES tags normalized to dictionary names (`Kung Fu Life` → `kung fu life`, `Sistemas` → `sistemas`).
+
 ## [0.2.0] - 2026-10-03
 
 ### Added

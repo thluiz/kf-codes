@@ -70,6 +70,22 @@ python scripts/silvae.py pull --to en/codes <slug>  # any <lang>/<section> under
 
 What stays only on Silva: heavy philosophy and politics (`organizacoes-contra-a-entropia`, `welcome`), linguistics (`academia-sinica-2000-anos-etimologia`), the Programa de Mestrado records, and the travel diaries (SIVKF, Buenos Aires) as they are.
 
+### Tags across languages
+
+Each post uses tags in its own language, so URLs stay native (`/tags/carreira/` on the PT site, `/tags/career/` on the EN one). `data/tags.toml` is the dictionary: one table per concept, with its name in `pt`, `en` and `es`. `scripts/tags.py sync` generates `content/<lang>/tags/<slug>/_index.md` for every tag used by a published post, with `translationKey: "tag-<key>"`. That key is what links the same tag across the three sites in the language switcher and hreflang.
+
+- Same spelling in two languages (`sistemas` in PT and ES, `kung fu` everywhere): same key, so the pages are linked.
+- False cognate (same spelling, different meaning): separate keys. Example of the opposite trap: PT `historietas` maps to ES `anécdotas`, because in Spanish "historieta" means comic strip.
+- `pt` names are exactly what Silva uses. `scripts/silvae.py` translates tags through the dictionary when importing into `en/` or `es/`, since Silva writes PT tags even on English posts.
+
+```sh
+python scripts/tags.py check  # unknown tags or stale tag pages (exit 1); deploy.ps1 runs it and warns
+python scripts/tags.py sync   # (re)generate tag pages after adding tags or editing the dictionary
+python scripts/tags.py fix    # rewrite post tags to the dictionary name in the post's language
+```
+
+A new tag needs a dictionary entry before `sync`; until then `check` flags it and its page has no translations.
+
 ### Sections
 
 `kungfu` (all three sites) and Códigos/Codes for development, architecture and career: `content/pt/codigos/` and `content/en/codes/`, linked as translations through `translationKey: "codigos"`. `mainSections` lists all three section names; Spanish gets the section once it has content.

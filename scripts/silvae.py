@@ -15,6 +15,9 @@ estiver atrás do remoto).
 """
 import glob, json, os, re, shutil, subprocess, sys
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import tags as tag_dict  # noqa: E402  (scripts/tags.py)
+
 SILVA_REPO = "E:/silva"
 SILVA_POSTS = f"{SILVA_REPO}/src/content/post"
 KF_CONTENT = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "content")
@@ -79,8 +82,19 @@ def pull(slug, dst):
     fm, body = split(open(index, encoding="utf-8").read())
     title = unq(field(fm, "title"))
     cover = unq(nested(fm, "coverImage", "src"))
+    # O Silva escreve as tags em PT mesmo nos posts em inglês; fora do PT, traduz pelo data/tags.toml
+    lang = os.path.relpath(dst, KF_CONTENT).split(os.sep)[0]
+    tags = json.loads(field(fm, "tags").replace("'", '"'))
+    if lang != "pt":
+        translated = []
+        for t in tags:
+            name = tag_dict.translate(t, "pt", lang)
+            if not name:
+                print(f"aviso: tag '{t}' de {slug} não está em data/tags.toml; mantida como está")
+            translated.append(name or t)
+        tags = translated
     out = ["---", f"title: {q(title)}", f"date: {q(unq(field(fm, 'publishDate')))}",
-           f"description: {q(unq(field(fm, 'description')))}", f"tags: {field(fm, 'tags')}"]
+           f"description: {q(unq(field(fm, 'description')))}", f"tags: {q(tags)}"]
     if cover:
         alt = unq(nested(fm, "coverImage", "alt")) or title
         out += [f"featureimage: {q(cover.removeprefix('./'))}", f"featureimagealt: {q(alt)}"]

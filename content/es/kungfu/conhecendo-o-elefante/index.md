@@ -1,7 +1,7 @@
 ---
 date: "2022-11-18"
 title: "Conociendo al elefante"
-tags: ['Vida Kung Fu', 'Sam Faat', '心法', 'Sistemas']
+tags: ["vida kung fu", "sam faat", "心法", "sistemas"]
 featureimage: "elephant-silhoutte-jordan-heinrichs-MgWOWZ8r5Ig-unsplash.jpg"
 summary: "Análisis de sistemas"
 

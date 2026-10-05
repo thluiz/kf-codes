@@ -41,8 +41,15 @@ if (-not $SkipBuild) {
     }
 }
 
-# Posts que vieram do Silva: só avisa se algum mudou lá desde a importação
 $env:PYTHONIOENCODING = "utf-8"
+
+# Tags: só avisa se há tag fora do data/tags.toml ou página de tag fora de sincronia
+python scripts/tags.py check
+if ($LASTEXITCODE -ne 0) {
+    Write-Host "AVISO: tags fora do dicionário ou não sincronizadas (python scripts/tags.py sync)" -ForegroundColor Yellow
+}
+
+# Posts que vieram do Silva: só avisa se algum mudou lá desde a importação
 python scripts/silvae.py check
 if ($LASTEXITCODE -ne 0) {
     Write-Host "AVISO: há posts desatualizados em relação ao Silva (python scripts/silvae.py pull --outdated)" -ForegroundColor Yellow

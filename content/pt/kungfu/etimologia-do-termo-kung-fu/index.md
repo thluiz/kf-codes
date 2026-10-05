@@ -7,7 +7,7 @@ featureimage: "etd-20191028.png"
 featureimagealt: "ETD de 28 de outubro de 2019"
 canonicalURL: "https://silva.thluiz.com/posts/etimologia-do-termo-kung-fu/"
 silvaeSlug: "etimologia-do-termo-kung-fu"
-silvaeCommit: "8c5583805d153c511bda20803892e40f806d6020"
+silvaeCommit: "61c2fbde198d545d3988de68689bb56760c41d3f"
 ---
 No Encontro Temático à Distância dessa semana, Matheus Azevedo propôs que se falasse sobre Kung Fu ([功夫](https://www.mdbg.net/chinese/dictionary?page=chardict&cdcanoce=0&cdqchi=%E5%8A%9F%E5%A4%AB)), um tema que daria uma vida inteira de conversas, [Si Fu](http://mestrejuliocamacho.com "Mestre Julio Camacho") optou por começar sobre a etimologia do termo pelos seus dois ideogramas:
 
